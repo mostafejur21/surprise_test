@@ -81,7 +81,7 @@ class _LoginPageState extends State<LoginPage> {
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
                       // Perform login logic here
-                      Get.to(() => HomePage());
+                      Get.to(() => const HomePage());
                     }
                   },
                   child: const Text(
